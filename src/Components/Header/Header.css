@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin: 150px 170px;
+}
+.header-section {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+.header-section img {
+    width: 250px;  
+    height: 300px;  
+    border-radius: 20000%;
+    object-fit: cover;  
+    border:5px solid darkblue;
+}
+.header h1{
+    padding: 70px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    width: 90%;
+}
+.header h1 span{
+    color: #f06543;
+}
+.icons{
+    display: flex;
+    list-style: none;
+}
+.icons :hover{
+    transform: translateY(-8px);
+    color: #f06543;
+    transition: .4s;
+}

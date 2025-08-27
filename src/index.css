@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0px;
+}
+body{
+  height: 100vh;
+  background: whitesmoke;
+  color: darkblue;
+  font-family: 'Times New Roman', Times, serif;
+}
+html {
+  scroll-behavior: smooth; 
+  scroll-padding-top: 70px; 
+}

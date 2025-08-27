@@ -1,0 +1,44 @@
+.navbar{
+    position: fixed; 
+    top: 0;
+    left: -30px;
+    width: 100%;
+    background: #e9ecf0;
+    padding: 15px;
+    z-index: 1000;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+} 
+.nav-menu{
+    display: flex;
+    align-items:center;
+    list-style-type: none;
+    gap: 50px;
+    font-size: 23px;
+}
+.hash-link{
+    text-decoration: none;
+    color: darkblue;
+}
+.hash-link:hover{
+    text-decoration: underline;
+    text-decoration-color: #f06543;
+    text-decoration-thickness: 4px;
+}
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+.resume:hover .icon {
+  color: #f06543;
+}
+.resume .icon {
+  color: darkblue;
+}
+.resume:hover {
+  color: #f06543;
+}
+.resume {
+  color: darkblue;
+}

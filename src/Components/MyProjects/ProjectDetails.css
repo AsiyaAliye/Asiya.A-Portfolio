@@ -1,0 +1,45 @@
+.project-details {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+.project-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+.project-image {
+  display: block;
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 0 auto 30px;
+}
+.project-overview, .project-features, .project-techstack {
+  margin-bottom: 25px;
+  color: black;
+}
+.project-overview h2,
+.project-features h2,
+.project-techstack h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: darkblue;
+  border-left: 4px solid #f06543;
+  padding-left: 10px;
+}
+.project-features ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+.project-techstack p {
+  background: #f3f4f6;
+  padding: 10px;
+  border-radius: 6px;
+  font-style: italic;
+}
